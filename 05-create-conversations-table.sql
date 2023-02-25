@@ -1,6 +1,7 @@
 CREATE TABLE conversations (
-    user_name VARCHAR(100),
-    employers_name VARCHAR(100),
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    employers_id INT,
     message TEXT,
     date_sent TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
