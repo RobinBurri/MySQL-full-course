@@ -1,0 +1,4 @@
+ALTER TABLE employers
+MODIFY COLUMN yearly_revenu FLOAT(5,2);
+
+ALTER TABLE talents MODIFY COLUMN full_name VARCHAR(200);
