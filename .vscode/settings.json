@@ -9,7 +9,7 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "mysql1",
-            "database": "talently",
+            "database": "shop",
             "username": "root",
             "askForPassword": true
         }
