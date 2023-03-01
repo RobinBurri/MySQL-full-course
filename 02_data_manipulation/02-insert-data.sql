@@ -17,7 +17,7 @@ VALUES (
         FALSE
     ),
     (
-        '2022-04-10',
+        NULL,
         'Bid Oil Inc',
         'Trucks',
         567990,
