@@ -8,8 +8,8 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql1",
-            "database": "shop",
+            "name": "sales1",
+            "database": "sales",
             "username": "root",
             "askForPassword": true
         }
