@@ -9,7 +9,7 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "sales1",
-            "database": "sales",
+            "database": "relations",
             "username": "root",
             "askForPassword": true
         }
