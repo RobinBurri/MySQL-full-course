@@ -1,6 +1,8 @@
 CREATE TABLE talents (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id SERIAL PRIMARY KEY,
     full_name VARCHAR(100),
-    yearly_salary INT,
-    current_status ENUM('employed', 'self-employed', 'unemployed')
+    yearly_salary INTEGER,
+    current_status VARCHAR(20) CHECK (
+        current_status IN ('employed', 'self-employed', 'unemployed')
+    )
 );
