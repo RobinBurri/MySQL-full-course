@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+    postgres:
+        image: postgres:latest
+        ports:
+            - '4321:5432'
+        environment:
+            POSTGRES_USER: kazy
+            POSTGRES_PASSWORD: cactus
+            POSTGRES_DB: my_db
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+
+volumes:
+    postgres_data:

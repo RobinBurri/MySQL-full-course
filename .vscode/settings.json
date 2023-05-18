@@ -1,18 +1,4 @@
 {
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "sales1",
-            "database": "relations",
-            "username": "root",
-            "askForPassword": true
-        }
-    ],
+    "sqltools.connections": [],
     "sqltools.autoOpenSessionFiles": false
 }
