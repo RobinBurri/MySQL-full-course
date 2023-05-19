@@ -6,8 +6,8 @@
             "port": 1234,
             "askForPassword": true,
             "driver": "PostgreSQL",
-            "name": "talent",
-            "database": "talently",
+            "name": "mysql1",
+            "database": "relations",
             "username": "robin"
         }
     ],
