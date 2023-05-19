@@ -12,4 +12,4 @@ INSERT INTO users (first_name, last_name, email, address_id)
 VALUES ('Robin', 'Burri', 'robinburri@test.com', 1),
     ('Max', 'Schwartz', 'maxschwartz@test.com', 4),
     ('John', 'Doe', 'johndoe@test.com', 2),
-('Jane', 'Eod', 'janeeod@test.com', 2);
+    ('Jane', 'Eod', 'janeeod@test.com', 2);
