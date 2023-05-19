@@ -1,5 +1,5 @@
 CREATE TABLE conversations (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id SERIAL PRIMARY KEY,
     user_id INT,
     employers_id INT,
     message TEXT,

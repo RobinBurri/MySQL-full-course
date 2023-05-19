@@ -3,11 +3,11 @@
         {
             "previewLimit": 50,
             "server": "localhost",
-            "port": 5432,
+            "port": 1234,
             "askForPassword": true,
             "driver": "PostgreSQL",
-            "name": "whatever",
-            "database": "db",
+            "name": "talent",
+            "database": "talently",
             "username": "robin"
         }
     ],

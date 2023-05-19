@@ -1,8 +1,7 @@
-DROP TABLE sales;
-
-CREATE TABLE IF NOT EXISTS sales(
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    date_created DATE DEFAULT (CURRENT_DATE),
+DROP TABLE IF EXISTS sales;
+CREATE TABLE sales (
+    id SERIAL PRIMARY KEY,
+    date_created DATE DEFAULT CURRENT_DATE,
     date_fulfilled DATE,
     customer_name VARCHAR(300) NOT NULL,
     product_name VARCHAR(300) NOT NULL,

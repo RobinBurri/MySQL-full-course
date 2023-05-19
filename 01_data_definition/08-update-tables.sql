@@ -1,4 +1,5 @@
 ALTER TABLE employers
-MODIFY COLUMN yearly_revenu FLOAT(5,2);
-
-ALTER TABLE talents MODIFY COLUMN full_name VARCHAR(200);
+ALTER COLUMN yearly_revenu
+SET DATA TYPE NUMERIC(5, 2);
+ALTER TABLE talents
+ALTER COLUMN full_name TYPE VARCHAR(200);
