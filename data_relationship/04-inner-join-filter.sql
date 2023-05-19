@@ -7,3 +7,6 @@ SELECT u.id AS user_id,
 FROM users AS u
     INNER JOIN addresses AS a ON u.address_id = a.id
     INNER JOIN cities AS c ON a.city_id = c.id
+WHERE c.name = 'Berlin'
+    OR c.name = 'Lausanne'
+ORDER BY u.id DESC;
