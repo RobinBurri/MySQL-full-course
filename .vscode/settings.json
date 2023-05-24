@@ -1,15 +1,25 @@
 {
     "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 1234,
-            "askForPassword": true,
-            "driver": "PostgreSQL",
-            "name": "mysql1",
-            "database": "relations",
-            "username": "robin"
-        }
-    ],
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 1234,
+			"askForPassword": true,
+			"driver": "PostgreSQL",
+			"database": "db",
+			"username": "robin",
+			"name": "relationexample"
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 1234,
+			"askForPassword": true,
+			"driver": "PostgreSQL",
+			"name": "uniq2",
+			"database": "relationexample",
+			"username": "robin"
+		}
+	],
     "sqltools.autoOpenSessionFiles": false
 }
