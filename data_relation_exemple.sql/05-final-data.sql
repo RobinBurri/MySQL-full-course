@@ -1,4 +1,4 @@
-INSERT INTO company_buildings (name)
+INSERT INTO buildings (name)
 VALUES 
   ('Main Building'), 
   ('Research Lab'), 
@@ -10,7 +10,7 @@ VALUES
   ('Data Analysts', 3),
   ('R&D', 2);
 
-INSERT INTO employees 
+INSERT INTO employee
   (first_name, last_name, birthdate, email, team_id)
 VALUES 
   ('Julie', 'Barnes', '1988-10-01', 'julie@test.com', 3),
@@ -31,7 +31,7 @@ VALUES
   ('New Hire Onboarding', '2022-02-28'),
   ('New Course Evaluation', '2022-01-01');
 
-INSERT INTO projects_employees (employee_id, project_id)
+INSERT INTO projects_employees (employee_id, projects_id)
 VALUES 
   (1, 2),
   (2, 2),
