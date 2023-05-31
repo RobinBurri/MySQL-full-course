@@ -1,3 +1,9 @@
+CREATE TABLE projects (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(300) NOT NULL,
+    deadline DATE
+);
+
 CREATE TABLE IF NOT EXISTS buildings (
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(200) NOT NULL
@@ -23,4 +29,11 @@ CREATE TABLE IF NOT EXISTS intranet_accounts (
 	id SERIAL PRIMARY KEY,
 	email VARCHAR(200) REFERENCES employee (email) ON DELETE CASCADE,
 	password VARCHAR(200) NOT NULL
+);
+
+-- intermidiate table n:n 
+CREATE TABLE projects_employees (
+    id SERIAL PRIMARY key,
+    employee_id INT REFERENCES employee (id) ON DELETE CASCADE,
+    projects_id INT REFERENCES projects  on DELETE CASCADE
 );
