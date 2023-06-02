@@ -19,6 +19,16 @@
 			"name": "uniq2",
 			"database": "relationexample",
 			"username": "robin"
+		},
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 1234,
+			"askForPassword": true,
+			"driver": "PostgreSQL",
+			"name": "resto",
+			"database": "restaurants",
+			"username": "robin"
 		}
 	],
     "sqltools.autoOpenSessionFiles": false
