@@ -1,35 +1,45 @@
 {
     "sqltools.connections": [
-		{
-			"previewLimit": 50,
-			"server": "localhost",
-			"port": 1234,
-			"askForPassword": true,
-			"driver": "PostgreSQL",
-			"database": "db",
-			"username": "robin",
-			"name": "relationexample"
-		},
-		{
-			"previewLimit": 50,
-			"server": "localhost",
-			"port": 1234,
-			"askForPassword": true,
-			"driver": "PostgreSQL",
-			"name": "uniq2",
-			"database": "relationexample",
-			"username": "robin"
-		},
-		{
-			"previewLimit": 50,
-			"server": "localhost",
-			"port": 1234,
-			"askForPassword": true,
-			"driver": "PostgreSQL",
-			"name": "resto",
-			"database": "restaurants",
-			"username": "robin"
-		}
-	],
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1234,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "uniq2",
+            "database": "relationexample",
+            "username": "robin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1234,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "resto",
+            "database": "restaurants",
+            "username": "robin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1234,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "default",
+            "database": "db",
+            "username": "robin"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1234,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "gym",
+            "database": "gym",
+            "username": "robin"
+        }
+    ],
     "sqltools.autoOpenSessionFiles": false
 }
